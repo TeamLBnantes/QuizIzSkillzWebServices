@@ -5,7 +5,7 @@
 *.class
 *MANIFEST.MF
 
-#01Code/AppQCMMono/src/main/resources/META-INF/persistence.xml
+
 
 persistence.xml
 
@@ -124,3 +124,37 @@ testem.log
 .DS_Store
 Thumbs.db
 
+
+#reprise au moment reorganisation arbo des projets
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+### j'ajoute java à la ligne suivnate, car application.properties remonte, ce qui n'est pas souhaitable###
+!**/src/main/java/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
